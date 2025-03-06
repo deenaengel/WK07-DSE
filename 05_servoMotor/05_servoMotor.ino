@@ -12,6 +12,7 @@ void setup() {
   servoVelocity = 5;
 }
 
+
 void loop() {
   if (millis() - lastChange > 100) {
     servoAngle += servoVelocity;
